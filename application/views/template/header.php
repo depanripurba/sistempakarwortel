@@ -17,7 +17,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Theme style -->
     <link rel="stylesheet" href="<?=base_url('assets')?>/dist/css/adminlte.min.css">
     <!-- Icon -->
-    <link rel="shortcut icon" href="<?=base_url('assets/img/logo.png')?>" type="image/x-icon">
 </head>
 
 <body class="hold-transition sidebar-mini">
