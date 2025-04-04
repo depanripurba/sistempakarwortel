@@ -52,8 +52,6 @@ class Auth extends CI_Controller
 
 		// Query User
 		$login = $this->db->get_where('tbl_login', ['username' => $username])->row_array();
-		var_dump($login);
-		die;
 		// Check Data Login (Terdaftar / Tidak di dalam database)
 		if ($login) {
 			// Jika Terdaftar (Ada)
