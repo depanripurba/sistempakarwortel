@@ -44,7 +44,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?=base_url('diagnosa')?>" class="nav-link <?=$aktif==='datapasien' ? 'active' : ''  ?>">
+                    <a href="<?=base_url('diagnosa')?>" class="nav-link <?=$aktif==='diagnosa' ? 'active' : ''  ?>">
                         <i class="nav-icon fas fa-user-injured"></i>
                         <p>
                             Diagnosa

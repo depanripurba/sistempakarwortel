@@ -12,7 +12,7 @@ class Auth extends CI_Controller
 
 	public function index()
 	{
-		$data['judul'] = 'SP Teorema Bayes Endokrin - Login';
+		$data['judul'] = 'Sistem Pakar Wortel- Login';
 
 		// Jika tidak ada user yang berhasil login, kembalikan ke halaman login
 		if ($this->session->userdata('username') && $this->session->userdata('role')==='Admin') {

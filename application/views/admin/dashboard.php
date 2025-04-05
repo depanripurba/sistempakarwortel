@@ -21,7 +21,7 @@
                         <div class="icon">
                             <i class="fas fa-book-medical"></i>
                         </div>
-                        <a href="<?= base_url('master/datagejala') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="<?= base_url('master/datapenyakit') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <div class="col-3">
@@ -33,7 +33,7 @@
                         <div class="icon">
                             <i class="fas fa-notes-medical"></i>
                         </div>
-                        <a href="<?= base_url('master/datapenyakit') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="<?= base_url('master/datagejala') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <div class="col-3">
@@ -45,7 +45,7 @@
                         <div class="icon">
                             <i class="nav-icon fas fa-user-injured"></i>
                         </div>
-                        <a href="<?= base_url('master/datapasien') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="<?= base_url('master/basispengetahuan') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <div class="col-3">
@@ -57,7 +57,7 @@
                         <div class="icon">
                             <i class="nav-icon fas fa-user-injured"></i>
                         </div>
-                        <a href="<?= base_url('master/datapasien') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="<?= base_url('datapengguna') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
             </div>

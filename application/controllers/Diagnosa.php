@@ -141,7 +141,7 @@ class Diagnosa extends CI_Controller
         $this->session->set_userdata('hasildiagnosa', $hasildiagnosakirim);
 
         $propertiview['judul'] = 'Sistem Pakar Diagnosa Penyakit Wortel';
-        $propertiview['aktif'] = 'Diagnosa Pasien';
+        $propertiview['aktif'] = 'diagnosa';
         $propertiview['hasil'] = $hasildiagnosakirim;
         $propertiview['nama'] = $_POST['nama'];
         $propertiview['user'] = $this->session->userdata();

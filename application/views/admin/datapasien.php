@@ -35,7 +35,7 @@
                                         <td><?=$no++?></td>
                                         <td><?=$p['fullname']?></td>
                                         <td>
-                                            <a onclick='confirm("Apakah Anda Ingin Menghapus Data Pasien ini?")' href='<?=base_url('master/delete_pasien/'.$p['id'])?>' class="btn btn-danger">
+                                            <a onclick='confirm("Apakah Anda Ingin Menghapus Data ini?")' href='<?=base_url('master/delete_pasien/'.$p['id'])?>' class="btn btn-danger">
                                                 <span>Hapus</span>
                                             </a>
                                         </td>

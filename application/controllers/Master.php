@@ -43,7 +43,7 @@ class Master extends CI_Controller
 	public function datagejala()
 	{
 		$data['aktif'] = 'datagejala';
-		$data['judul'] = 'SP Theorema Bayes Endokrin - Data Gejala';
+		$data['judul'] = 'Sistem Pakar Wortel - Data Gejala';
 		$data['gejala'] = $this->Gejala_model->getAllGejala();
 		$this->load->view('template/header',$data);
 		$this->load->view('template/sidebar', $data);
@@ -74,8 +74,8 @@ class Master extends CI_Controller
 	}
 	public function datapasien()
 	{
-		$data['aktif'] = 'datapasien';
-		$data['judul'] = 'Data Pasien';
+		$data['aktif'] = 'home';
+		$data['judul'] = 'Data Pengguna';
 		$data['pasien'] = $this->Pasien_model->getAllData();
 		$this->load->view('template/header',$data);
 		$this->load->view('template/sidebar', $data);

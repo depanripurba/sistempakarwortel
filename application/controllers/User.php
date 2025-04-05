@@ -24,7 +24,7 @@ class User extends CI_Controller
 	}
 
 	public function dashboard(){ 
-		$data['judul']='SISTEM PAKAR DIAGNOSA ENDOKRIN - DASHBOARD USER';
+		$data['judul']='SISTEM PAKAR DIAGNOSA WORTEL- DASHBOARD USER';
 		$data['aktif']='Dashboard Pasien';
 		$data['user']=$this->session->userdata();
 		$this->load->view('user/template/header',$data);
@@ -35,14 +35,14 @@ class User extends CI_Controller
 
 	public function info()
 	{
-		$data['judul']='SISTEM PAKAR DIAGNOSA ENDOKRIN - HOME';
+		$data['judul']='SISTEM PAKAR DIAGNOSA WORTEL - HOME';
 		$this->load->view('user/info',$data);
 	}
 
 	public function diagnosa(){
 
 		$data['judul']='Sistem Pakar Diagnosa Penyakit Wortel';
-		$data['aktif']='Diagnosa Pasien';
+		$data['aktif']='diagnosa';
 		$data['user']=$this->session->userdata();
 		$data['gejala'] = $this->Gejala_model->getAllGejala();
 		$this->load->view('template/header',$data);
@@ -59,7 +59,7 @@ class User extends CI_Controller
 			redirect('user/dashboard');
 		}
 
-		$data['judul']='SP Teorema Bayes Endokrin - Register';
+		$data['judul']='Sistem Pakar Wortel - Register';
 		$this->load->view('user/login',$data);
 	}
 
@@ -120,7 +120,7 @@ class User extends CI_Controller
 	}
 
 	public function register(){
-		$data['judul']='SP Theorema Bayes Endokrin - Register';
+		$data['judul']='Sistem Pakar Wortel Register';
 		$this->load->view('user/register',$data);
 	}
 
