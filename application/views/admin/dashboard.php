@@ -67,7 +67,7 @@
                         <center>
                             <h2>
                                 <p class="center-text" style="color:#3b51e0">Selamat Datang Di Aplikasi Sistem Pakar Mendiagnosa Penyakit
-                                    Pada Tanaman Wortel (Daucus Carola)</p>
+                                    Pada Tanaman Wortel (Daucus Carota)</p>
                         </center>
                         </h2>
                     </div>

@@ -44,10 +44,10 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?=base_url('tentang')?>" class="nav-link <?=$aktif==='datapasien' ? 'active' : ''  ?>">
+                    <a href="<?=base_url('diagnosa')?>" class="nav-link <?=$aktif==='datapasien' ? 'active' : ''  ?>">
                         <i class="nav-icon fas fa-user-injured"></i>
                         <p>
-                            Tentang
+                            Diagnosa
                         </p>
                     </a>
                 </li>
