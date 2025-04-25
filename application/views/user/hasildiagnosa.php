@@ -27,6 +27,16 @@
                                         <td>:</td>
                                         <td><b><?= $hasil['namapenyakit'] ?> </b></td>
                                     </tr>
+                                    <tr>
+                                        <td>Nilai Bayes</td>
+                                        <td>:</td>
+                                        <td><b><?= $hasil['nilaipeluang'] ?> </b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Persen Nilai</td>
+                                        <td>:</td>
+                                        <td><b><?= $hasil['persenpeluang'] ?> %</b></td>
+                                    </tr>
                                 </table>
                                 <p style="margin-top:10px">Gejala yang dipilih</p>
                                 <ol style="margin-top:-10px">
@@ -42,7 +52,7 @@
 
                         <div class="p-2">
                             <b><i>Solusi</i></b>
-                            <ul style="line-height:10px">
+                            <ul style="line-height:20px">
                                 <?php
                                 $solusi = $hasil['solusi'];
                                 $solusiArr = explode("+", $solusi);
