@@ -18,7 +18,7 @@
                             </div>
                             <!-- end bagian identitas user -->
                             <div class="card-header">
-                                <h3 class="card-title">Diagnosa Penyakit</h3>
+                                <h3>Diagnosa Penyakit Pada Tanaman Wortel</h3>
                             </div>
                             <?= $this->session->flashdata('message'); ?>
                             <div class="card-body">
