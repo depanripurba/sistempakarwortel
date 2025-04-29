@@ -51,12 +51,12 @@ $hasil = $_SESSION['hasildiagnosa'];
                                             <td><b><?= $hasil['namapenyakit'] ?> </b></td>
                                         </tr>
                                         <tr>
-                                            <td>Tingkat Keakuratan</td>
+                                            <td>Nilai Bayes</td>
                                             <td>:</td>
                                             <td><b><?= $hasil['nilaipeluang'] ?> </b></td>
                                         </tr>
                                         <tr>
-                                            <td>Persen Nilai</td>
+                                            <td>Tingkat Keakuratan</td>
                                             <td>:</td>
                                             <td><b><?= $hasil['persenpeluang'] ?> %</b></td>
                                         </tr>
