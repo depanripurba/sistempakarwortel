@@ -28,7 +28,7 @@
                                         <td><b><?= $hasil['namapenyakit'] ?> </b></td>
                                     </tr>
                                     <tr>
-                                        <td>Nilai Bayes</td>
+                                        <td>Tingkat Keakuratan</td>
                                         <td>:</td>
                                         <td><b><?= $hasil['nilaipeluang'] ?> </b></td>
                                     </tr>
